@@ -9,7 +9,7 @@ public class PasienModel_07287 implements ModelInterface07287 {
         pasienEntityArrayList = new ArrayList<PasienEntity07287>();
     }
   
-    public int cekData(String  nama,String password){
+    public int cekData(String nama,String password){
         int loop =0;
         if(pasienEntityArrayList.size()==0){
             loop=-1;
@@ -33,7 +33,7 @@ public class PasienModel_07287 implements ModelInterface07287 {
     }
     
     public void insert(PasienEntity07287 pasienEntity){
-        this.pasienEntityArrayList.add(pasienEntity);
+        pasienEntityArrayList.add(pasienEntity);
     }
     
     public int size(){
